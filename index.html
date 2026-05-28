@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Harvest Hub | Premium Indian Red Chillies & Peanuts Exporter</title>
+    <meta name="description" content="Premier Indian agricultural exporter specializing in high-grade Guntur Sannam & Byadagi dry red chillies and premium peanuts. Fully APEDA compliant.">
+    <meta name="keywords" content="Guntur Sannam, Byadagi chilli, Indian red chillies export, bulk groundnuts supplier, APEDA certified">
+    
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Google Fonts -->
@@ -13,12 +16,8 @@
     <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        h1, h2, h3, h4 {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
         .bg-agri-green { background-color: #0B4624; }
         .text-agri-green { color: #0B4624; }
         .border-agri-green { border-color: #0B4624; }
@@ -26,6 +25,8 @@
         .text-chili-red { color: #C82217; }
         .hover\:bg-agri-green-dark:hover { background-color: #062B15; }
         .hover\:bg-chili-red-dark:hover { background-color: #A3180F; }
+        /* Layout Shift Protection for Icons */
+        .icon-wrapper { display: inline-flex; align-items: center; justify-content: center; min-w: 14px; min-h: 14px; }
     </style>
 </head>
 <body class="bg-[#FDFDFB] text-slate-800 antialiased selection:bg-red-600 selection:text-white">
@@ -34,33 +35,38 @@
     <div class="bg-emerald-950 text-emerald-100/80 text-xs py-2 px-4 sm:px-6 lg:px-8 border-b border-emerald-900/50">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div class="flex items-center gap-4">
-                <span class="flex items-center gap-1"><i data-lucide="globe" class="w-3.5 h-3.5 text-red-500"></i> Global B2B Supply Chain</span>
-                <span class="hidden md:inline-flex items-center gap-1"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> APEDA & Spices Board Compliant</span>
+                <span class="flex items-center gap-1"><span class="icon-wrapper"><i data-lucide="globe" class="w-3.5 h-3.5 text-red-500"></i></span> Global B2B Supply Chain</span>
+                <span class="hidden md:inline-flex items-center gap-1"><span class="icon-wrapper"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i></span> APEDA & Spices Board Compliant</span>
             </div>
             <div class="flex items-center gap-4">
-                <a href="mailto:sandeepgorai9@gmail.com" class="hover:text-white transition flex items-center gap-1"><i data-lucide="mail" class="w-3.5 h-3.5"></i> sandeepgorai9@gmail.com</a>
+                <a href="mailto:sandeepgorai9@gmail.com" class="hover:text-white transition flex items-center gap-1"><span class="icon-wrapper"><i data-lucide="mail" class="w-3.5 h-3.5"></i></span> sandeepgorai9@gmail.com</a>
                 <span class="text-emerald-800">|</span>
-                <span class="flex items-center gap-1"><i data-lucide="shield" class="w-3.5 h-3.5 text-emerald-400"></i> SGS / Geo-Chem Certified Quality</span>
+                <span class="flex items-center gap-1"><span class="icon-wrapper"><i data-lucide="shield" class="w-3.5 h-3.5 text-emerald-400"></i></span> SGS / Geo-Chem Certified Quality</span>
             </div>
         </div>
     </div>
 
-    <!-- Navigation -->
+    <!-- Navigation Header (Fixed Tag Structure) -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-xs">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div class="flex items-center gap-2">
-                <img src="2 .png" alt="Company Logo" class="h-15 w-auto">
-            </div>
+            
+            <!-- Logo Group Boxed Perfectly -->
+            <div class="flex items-center gap-3">
+                <img src="2 .png" alt="The Harvest Hub Logo" class="h-12 w-auto object-contain">
+                <div>
                     <span class="text-xl font-extrabold tracking-tight text-emerald-950 block leading-tight">THE HARVEST HUB</span>
                     <span class="text-[10px] font-bold tracking-widest text-chili-red uppercase block">Premium Agri Exports</span>
                 </div>
             </div>
+
+            <!-- Desktop Nav Links -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
                 <a href="#about" class="hover:text-agri-green transition">About Us</a>
                 <a href="#chillies" class="hover:text-chili-red transition">Red Chillies</a>
                 <a href="#peanuts" class="hover:text-agri-green transition">Peanuts & Groundnuts</a>
                 <a href="#quality" class="hover:text-agri-green transition">Quality Assurance</a>
             </nav>
+
             <div class="flex items-center gap-4">
                 <a href="#rfq" class="bg-chili-red text-white text-xs sm:text-sm font-bold px-5 py-2.5 rounded-lg shadow-sm shadow-red-900/20 hover:bg-chili-red-dark transition duration-200">
                     Request Bulk Quote
@@ -75,7 +81,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-7 text-center lg:text-left space-y-6">
                     <div class="inline-flex items-center gap-2 bg-emerald-100/80 border border-emerald-200/60 px-3 py-1 rounded-full text-xs font-semibold text-emerald-900">
-                        <span class="w-2 x-2 h-2 rounded-full bg-chili-red animate-pulse"></span> Direct From Origin: India
+                        <span class="w-2 h-2 rounded-full bg-chili-red animate-pulse"></span> Direct From Origin: India
                     </div>
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-emerald-950 leading-tight">
                         Premium Indian Red Chillies & Peanuts, <span class="text-chili-red">Delivered Globally.</span>
@@ -85,10 +91,10 @@
                     </p>
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
                         <a href="#rfq" class="w-full sm:w-auto bg-agri-green text-white text-center font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-emerald-900/20 hover:bg-agri-green-dark transition duration-200 flex items-center justify-center gap-2">
-                            <i data-lucide="file-text" class="w-4 h-4"></i> Request MT Pricing
+                            <span class="icon-wrapper"><i data-lucide="file-text" class="w-4 h-4"></i></span> Request MT Pricing
                         </a>
                         <a href="#chillies" class="w-full sm:w-auto bg-white border border-slate-200 text-slate-700 text-center font-bold px-8 py-3.5 rounded-xl hover:bg-slate-50 transition flex items-center justify-center gap-2">
-                            Explore Catalog <i data-lucide="arrow-down" class="w-4 h-4 text-slate-400"></i>
+                            Explore Catalog <span class="icon-wrapper"><i data-lucide="arrow-down" class="w-4 h-4 text-slate-400"></i></span>
                         </a>
                     </div>
                     
@@ -109,13 +115,13 @@
                     </div>
                 </div>
                 
-                <!-- Hero Visual Elements (SVG fallback for clean loading without heavy imagery tokens) -->
+                <!-- Logistics Visual Card -->
                 <div class="lg:col-span-5 relative flex justify-center">
                     <div class="w-full max-w-[420px] aspect-square rounded-2xl bg-linear-to-tr from-emerald-800 to-emerald-600 shadow-2xl relative flex flex-col justify-between p-8 text-white overflow-hidden group">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.15),transparent)]"></div>
                         <div class="flex justify-between items-start z-10">
                             <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">
-                                <i data-lucide="ship" class="w-6 h-6 text-emerald-300"></i>
+                                <span class="icon-wrapper"><i data-lucide="ship" class="w-6 h-6 text-emerald-300"></i></span>
                             </div>
                             <span class="bg-chili-red font-bold text-xs tracking-wider uppercase px-3 py-1 rounded-full border border-white/20 shadow-sm">Container Ready</span>
                         </div>
@@ -130,28 +136,28 @@
         </div>
     </section>
 
-    <!-- About Section / Core Value Prop -->
+    <!-- About Section -->
     <section id="about" class="py-20 border-t border-slate-100 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
                 <span class="text-xs font-bold tracking-widest text-agri-green uppercase">Farm-To-Port Excellence</span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-emerald-950 tracking-tight">The Sustainable Sourcing Hub</h2>
-                <p class="text-slate-600">We remove traditional middlemen trading layers. By dealing directly with farming clusters across Andhra Pradesh, Telangana, and Karnataka, we provide optimal profit margins back to agricultural communities while ensuring unrivaled container trace-ability for global buyers.</p>
+                <p class="text-slate-600">We remove traditional middlemen trading layers. By dealing directly with farming clusters across Andhra Pradesh, Telangana, and Karnataka, we provide optimal profit margins back to agricultural communities while ensuring unrivaled container traceability for global buyers.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 space-y-4">
-                    <div class="w-12 h-12 rounded-xl bg-emerald-100 text-agri-green flex items-center justify-center"><i data-lucide="users" class="w-6 h-6"></i></div>
+                    <div class="w-12 h-12 rounded-xl bg-emerald-100 text-agri-green flex items-center justify-center"><span class="icon-wrapper"><i data-lucide="users" class="w-6 h-6"></i></span></div>
                     <h3 class="text-lg font-bold text-emerald-950">Ethical Farmer Alliances</h3>
                     <p class="text-sm text-slate-600 leading-relaxed">Direct support framework empowering local farmers with standardized pre-harvest inputs and fair trade pricing practices.</p>
                 </div>
                 <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 space-y-4">
-                    <div class="w-12 h-12 rounded-xl bg-red-100 text-chili-red flex items-center justify-center"><i data-lucide="shield-check" class="w-6 h-6"></i></div>
+                    <div class="w-12 h-12 rounded-xl bg-red-100 text-chili-red flex items-center justify-center"><span class="icon-wrapper"><i data-lucide="shield-check" class="w-6 h-6"></i></span></div>
                     <h3 class="text-lg font-bold text-emerald-950">Strict Quality Inspections</h3>
                     <p class="text-sm text-slate-600 leading-relaxed">Every batch undergoes exhaustive screening for sizing consistency, skin color values, aflatoxin compliance, and moisture limits.</p>
                 </div>
                 <div class="p-6 rounded-2xl bg-slate-50 border border-slate-100 space-y-4">
-                    <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center"><i data-lucide="package" class="w-6 h-6"></i></div>
+                    <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center"><span class="icon-wrapper"><i data-lucide="package" class="w-6 h-6"></i></span></div>
                     <h3 class="text-lg font-bold text-emerald-950">Tailored Commercial Packing</h3>
                     <p class="text-sm text-slate-600 leading-relaxed">Available in standard jute bags, multi-wall paper packages, or vacuum-sealed PP bags configured to withstand extreme transit temperatures.</p>
                 </div>
@@ -159,7 +165,7 @@
         </div>
     </section>
 
-    <!-- Product Category: Chillies -->
+    <!-- Chillies Product Grid -->
     <section id="chillies" class="py-20 bg-slate-50 border-y border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
@@ -171,8 +177,7 @@
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                
-                <!-- Byadagi Chilli -->
+                <!-- Byadagi -->
                 <div class="bg-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -190,7 +195,7 @@
                     <a href="#rfq" class="mt-6 w-full text-center bg-slate-900 text-white text-xs font-bold py-2.5 rounded-lg hover:bg-chili-red transition">Quote Variety</a>
                 </div>
 
-                <!-- Guntur Sannam -->
+                <!-- Guntur -->
                 <div class="bg-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -208,7 +213,7 @@
                     <a href="#rfq" class="mt-6 w-full text-center bg-slate-900 text-white text-xs font-bold py-2.5 rounded-lg hover:bg-chili-red transition">Quote Variety</a>
                 </div>
 
-                <!-- Teja S17 -->
+                <!-- Teja -->
                 <div class="bg-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -226,7 +231,7 @@
                     <a href="#rfq" class="mt-6 w-full text-center bg-slate-900 text-white text-xs font-bold py-2.5 rounded-lg hover:bg-chili-red transition">Quote Variety</a>
                 </div>
 
-                <!-- Kashmiri Chilli -->
+                <!-- Kashmiri -->
                 <div class="bg-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -243,12 +248,11 @@
                     </div>
                     <a href="#rfq" class="mt-6 w-full text-center bg-slate-900 text-white text-xs font-bold py-2.5 rounded-lg hover:bg-chili-red transition">Quote Variety</a>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- Product Category: Peanuts/Groundnuts -->
+    <!-- Groundnuts Section -->
     <section id="peanuts" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
@@ -260,8 +264,7 @@
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                
-                <!-- Bold Variant -->
+                <!-- Bold -->
                 <div class="bg-linear-to-b from-slate-50 to-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -279,7 +282,7 @@
                     <a href="#rfq" class="mt-6 w-full text-center bg-agri-green text-white text-xs font-bold py-2.5 rounded-lg hover:bg-emerald-900 transition">Quote Variety</a>
                 </div>
 
-                <!-- Java Variant -->
+                <!-- Java -->
                 <div class="bg-linear-to-b from-slate-50 to-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -297,7 +300,7 @@
                     <a href="#rfq" class="mt-6 w-full text-center bg-agri-green text-white text-xs font-bold py-2.5 rounded-lg hover:bg-emerald-900 transition">Quote Variety</a>
                 </div>
 
-                <!-- Blanched Variant -->
+                <!-- Blanched -->
                 <div class="bg-linear-to-b from-slate-50 to-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -315,7 +318,7 @@
                     <a href="#rfq" class="mt-6 w-full text-center bg-agri-green text-white text-xs font-bold py-2.5 rounded-lg hover:bg-emerald-900 transition">Quote Variety</a>
                 </div>
 
-                <!-- Inshell Variant -->
+                <!-- Inshell -->
                 <div class="bg-linear-to-b from-slate-50 to-white rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between shadow-xs hover:shadow-md transition">
                     <div>
                         <div class="flex justify-between items-start gap-2 mb-4">
@@ -332,12 +335,11 @@
                     </div>
                     <a href="#rfq" class="mt-6 w-full text-center bg-agri-green text-white text-xs font-bold py-2.5 rounded-lg hover:bg-emerald-900 transition">Quote Variety</a>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- Quality Assurance / Lab Certifications Section -->
+    <!-- Quality Section -->
     <section id="quality" class="py-25 bg-emerald-950 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(11,70,36,0.8),transparent)]"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -349,29 +351,29 @@
                         International agricultural trade relies on strict safety thresholds. The Harvest Hub deploys severe quality checkpoints at storage centers to shield stocks from common trade bottlenecks like high moisture mold and Aflatoxin spikes.
                     </p>
                     <div class="space-y-4 pt-2 text-sm text-emerald-100/90">
-                        <div class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-emerald-400 flex-shrink-0"></i> <span><strong>Aflatoxin B1 & Total:</strong> Verified negative via HPLC laboratory assays to meet European Union and US FDA entry protocols.</span></div>
-                        <div class="flex gap-3"><i data-lucide="check" class="w-5 h-5 text-emerald-400 flex-shrink-0"></i> <span><strong>Pre-Shipment Fumigation:</strong> Full Aluminum Phosphide treatment protocols with official fumigation logs.</span></div>
+                        <div class="flex gap-3"><span class="icon-wrapper"><i data-lucide="check" class="w-5 h-5 text-emerald-400 flex-shrink-0"></i></span> <span><strong>Aflatoxin B1 & Total:</strong> Verified negative via HPLC laboratory assays to meet European Union and US FDA entry protocols.</span></div>
+                        <div class="flex gap-3"><span class="icon-wrapper"><i data-lucide="check" class="w-5 h-5 text-emerald-400 flex-shrink-0"></i></span> <span><strong>Pre-Shipment Fumigation:</strong> Full Aluminum Phosphide treatment protocols with official fumigation logs.</span></div>
                     </div>
                 </div>
                 
                 <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div class="bg-white/5 backdrop-blur-xs border border-white/10 p-6 rounded-2xl">
-                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><i data-lucide="clipboard-check" class="w-5 h-5 text-emerald-400"></i></div>
+                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><span class="icon-wrapper"><i data-lucide="clipboard-check" class="w-5 h-5 text-emerald-400"></i></span></div>
                         <h3 class="font-bold text-lg mb-1">APEDA Registrations</h3>
                         <p class="text-xs text-emerald-100/60 leading-relaxed">Fully registered and recognized exporter under the Agricultural and Processed Food Products Export Development Authority of India.</p>
                     </div>
                     <div class="bg-white/5 backdrop-blur-xs border border-white/10 p-6 rounded-2xl">
-                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><i data-lucide="award" class="w-5 h-5 text-emerald-400"></i></div>
+                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><span class="icon-wrapper"><i data-lucide="award" class="w-5 h-5 text-emerald-400"></i></span></div>
                         <h3 class="font-bold text-lg mb-1">Indian Spices Board</h3>
                         <p class="text-xs text-emerald-100/60 leading-relaxed">Authorized Spice Board of India trading credentials ensuring legitimate geographical origin tracking for Byadagi and Guntur types.</p>
                     </div>
                     <div class="bg-white/5 backdrop-blur-xs border border-white/10 p-6 rounded-2xl">
-                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><i data-lucide="microscope" class="w-5 h-5 text-emerald-400"></i></div>
+                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><span class="icon-wrapper"><i data-lucide="microscope" class="w-5 h-5 text-emerald-400"></i></span></div>
                         <h3 class="font-bold text-lg mb-1">SGS Third-Party Audits</h3>
                         <p class="text-xs text-emerald-100/60 leading-relaxed">Buyers retain the absolute option to authorize pre-loading draft inspections performed by globally recognized bodies like SGS or Intertek.</p>
                     </div>
                     <div class="bg-white/5 backdrop-blur-xs border border-white/10 p-6 rounded-2xl">
-                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><i data-lucide="thermometer" class="w-5 h-5 text-emerald-400"></i></div>
+                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mb-4"><span class="icon-wrapper"><i data-lucide="thermometer" class="w-5 h-5 text-emerald-400"></i></span></div>
                         <h3 class="font-bold text-lg mb-1">Cold Chain Warehousing</h3>
                         <p class="text-xs text-emerald-100/60 leading-relaxed">Stocks are stored in strictly monitored, humidity-regulated cold warehouses to arrest capsaicin fade and prevent groundnut rancidity.</p>
                     </div>
@@ -380,7 +382,7 @@
         </div>
     </section>
 
-    <!-- B2B Lead Generation Form -->
+    <!-- RFQ Form Section -->
     <section id="rfq" class="py-20 bg-linear-to-b from-slate-50 to-slate-100">
         <div class="max-w-4xl mx-auto px-4 sm:px-6">
             <div class="bg-white rounded-3xl border border-slate-200/80 shadow-xl overflow-hidden">
@@ -457,14 +459,13 @@
         </div>
     </section>
 
-    <!-- Professional Footer Section -->
+    <!-- Footer Section -->
     <footer class="bg-slate-900 text-slate-400 pt-16 pb-8 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
-            
             <div class="md:col-span-5 space-y-4">
                 <div class="flex items-center gap-2 text-white">
                     <div class="bg-emerald-600 p-2 rounded-lg text-white">
-                        <i data-lucide="sprout" class="w-5 h-5"></i>
+                        <span class="icon-wrapper"><i data-lucide="sprout" class="w-5 h-5"></i></span>
                     </div>
                     <span class="text-lg font-bold tracking-tight">THE HARVEST HUB</span>
                 </div>
@@ -477,7 +478,7 @@
             </div>
 
             <div class="md:col-span-3 space-y-3 text-xs">
-                <h4 class="text-white font-bold tracking-wider uppercase text-xs text-slate-300">Export Categories</h4>
+                <h4 class="text-white font-bold tracking-wider uppercase text-slate-300">Export Categories</h4>
                 <ul class="space-y-2">
                     <li><a href="#chillies" class="hover:text-white transition">Byadagi & Guntur Sannam</a></li>
                     <li><a href="#chillies" class="hover:text-white transition">Teja S17 Extreme Heat</a></li>
@@ -487,7 +488,7 @@
             </div>
 
             <div class="md:col-span-4 space-y-3 text-xs">
-                <h4 class="text-white font-bold tracking-wider uppercase text-xs text-slate-300">Corporate Compliance</h4>
+                <h4 class="text-white font-bold tracking-wider uppercase text-slate-300">Corporate Compliance</h4>
                 <p class="leading-relaxed text-slate-500">
                     Sourcing Origins: Guntur (AP), Byadagi (KA), Challakere (KA). All storage facilities compliant with APEDA phyto-sanitary conditions.
                 </p>
@@ -496,7 +497,6 @@
                     <span>All Trade Rights Reserved.</span>
                 </div>
             </div>
-
         </div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-800/60 text-center text-[10px] text-slate-600">
